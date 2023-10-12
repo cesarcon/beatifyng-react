@@ -1,5 +1,6 @@
 import './styles.css'
 function NavBar() {
+  
   return (
     <nav id="header" className="navbar navbar-expand-lg navbar-dark sticky-top">
       <div className="container">

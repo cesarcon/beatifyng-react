@@ -1,6 +1,5 @@
 function Product({urlImg, precio, titulo}) {
     return(
-
         <div className="col-12 col-xs-6 col-md-3 col-lg-2 mb-4">
           <div className="card">
             <img src={urlImg} className="card-img-top" alt="..."/>
