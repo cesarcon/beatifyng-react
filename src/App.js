@@ -4,6 +4,7 @@ import { NavBar } from "./NavBar/NavBar";
 import { Intro } from "./Intro/Intro";
 import { ProductsList } from "./ProductList/ProductList";
 import { Product } from "./Product/Product";
+import { Footer } from "./Footer/footer";
 
 function App() {
   const listaProductos = [
@@ -24,6 +25,7 @@ function App() {
         )
         )}
       </ProductsList>
+      <Footer/>
     </>
   );
 }
