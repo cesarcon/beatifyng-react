@@ -16,7 +16,15 @@ function App() {
     {urlImg: 'https://images.pexels.com/photos/3993312/pexels-photo-3993312.jpeg?auto=compress&cs=tinysrgb&w=1600', 
     precio: 80000, titulo: 'Tintura'},
     {urlImg: 'https://images.pexels.com/photos/704815/pexels-photo-704815.jpeg?auto=compress&cs=tinysrgb&w=1600', 
-    precio: 80000, titulo: 'Manicure verde'},
+    precio: 14000, titulo: 'Manicure verde'},
+    {urlImg: 'https://images.pexels.com/photos/5069609/pexels-photo-5069609.jpeg?auto=compress&cs=tinysrgb&w=600', 
+    precio: 54000, titulo: 'Limpieza facial'},
+    {urlImg: 'https://images.pexels.com/photos/6628648/pexels-photo-6628648.jpeg?auto=compress&cs=tinysrgb&w=600', 
+    precio: 140000, titulo: 'Masajes corporles'},
+    {urlImg: 'https://images.pexels.com/photos/7755549/pexels-photo-7755549.jpeg?auto=compress&cs=tinysrgb&w=600', 
+    precio: 15000, titulo: 'Pedicure'},
+    {urlImg: 'https://images.pexels.com/photos/5177994/pexels-photo-5177994.jpeg?auto=compress&cs=tinysrgb&w=900', 
+    precio: 16000, titulo: 'Depilación de cejas'},
   ];
   //Estado de el valor a buscar
   const [searchValue, setSearchValue] = React.useState('');
